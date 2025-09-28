@@ -22,15 +22,15 @@
         default_layer {
             display-name = "L0";
             // -----------------------------------------------------------------------------------------------------------------------
-            // | ESC  | Q | W       | E        | R         | T         | XXXX | XXXX | Y         | U         | I       | O | P | L3  |
-            // | TAB  | A | S (ALT) | D (CTRL) | F (SHIFT) | G         | XXXX | XXXX | H (SHIFT) | J (CTRL)  | K (ALT) | L | ; |  '  |
-            // | CAPS | Z | X       | C        | V         | B         |             | N         | M         | ,       | . | / | DEL |
-            //                      | GUI      | SPACE     | BSPC (L1) |             | BSPC      | RET       | GUI     |
+            // | ESC  | Q | W       | E        | R          | T         | XXXX | XXXX | Y         | U         | I       | O | P | L3  |
+            // | TAB  | A | S (ALT) | D (CTRL) | F (SHIFT)  | G         | XXXX | XXXX | H (SHIFT) | J (CTRL)  | K (ALT) | L | ; |  '  |
+            // | CAPS | Z | X       | C        | V          | B         |             | N         | M         | ,       | . | / | DEL |
+            //                      | GUI      | SPACE (L1) | BSPC      |             | BSPC      | RET       | GUI     |
             bindings = <
-                &kp ESC  &kp Q &kp W       &kp E        &kp R         &kp T      &none &none &kp Y    &kp U         &kp I        &kp O       &kp P    &mo 2
-                &kp TAB  &kp A &hml LALT S &hml LCTRL D &hml LSHIFT F &kp G      &none &none &kp H    &hmr RSHIFT J &hmr RCTRL K &hmr RALT L &kp SEMI &kp SQT
-                &kp CAPS &kp Z &kp X       &kp C        &kp V         &kp B                  &kp N    &kp M         &kp COMMA    &kp DOT     &kp FSLH &kp DEL
-                                           &kp LGUI     &kp SPACE     &lt 1 BSPC             &kp BSPC &kp RET       &kp RGUI
+                &kp ESC  &kp Q &kp W       &kp E        &kp R         &kp T    &none &none &kp Y    &kp U         &kp I        &kp O       &kp P    &mo 2
+                &kp TAB  &kp A &hml LALT S &hml LCTRL D &hml LSHIFT F &kp G    &none &none &kp H    &hmr RSHIFT J &hmr RCTRL K &hmr RALT L &kp SEMI &kp SQT
+                &kp CAPS &kp Z &kp X       &kp C        &kp V         &kp B                &kp N    &kp M         &kp COMMA    &kp DOT     &kp FSLH &kp DEL
+                                           &kp LGUI     &lt 1 SPACE   &kp BSPC             &kp BSPC &kp RET       &kp RGUI
             >;
         };
 
