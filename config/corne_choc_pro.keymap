@@ -44,7 +44,7 @@
             bindings = <
                 &kp GRAVE &mt F1 N1 &mt F2 N2 &mt F3 N3 &mt F4 N4 &mt F5 N5 &trans &trans &mt F6 N6 &mt F7 N7 &mt F8 N8 &mt F9 N9 &mt F10 N0 &mt F11 MINUS
                 &trans    &trans    &kp EQUAL &kp LPAR  &kp RPAR  &kp MINUS &trans &trans &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &trans     &mt F12 BACKSLASH
-                &trans    &trans    &kp LBKT  &kp RBKT  &trans    &trans                  &trans    &trans    &trans    &trans    &trans     &trans
+                &trans    &trans    &trans    &kp LBKT  &kp RBKT  &trans                  &trans    &trans    &trans    &trans    &trans     &trans
                                               &trans    &trans    &trans                  &trans    &trans    &trans
             >;
         };
